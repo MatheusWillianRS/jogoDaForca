@@ -406,7 +406,7 @@ void adicionarPalavra() {
     temp=fecharArq(temp);
     temp=abrirArq("palavras.fc","a");
     if(fwrite(&guarda,sizeof(guarda),1,temp)!=1) {
-        printf("\nNAO FOI POSSIVEL ADICIONAR PALAVR!");
+        printf("\nNAO FOI POSSIVEL ADICIONAR PALAVRA!");
         printf("\nAPERTE UMA TECLA PARA VOLTAR AO MENU...");
         fflush(stdin);
         resp=getchar();
